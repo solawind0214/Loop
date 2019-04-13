@@ -17,13 +17,9 @@ void key_init(void) {
 
 	/* 配置IO口 */
 	GPIO_Init.Mode = GPIO_MODE_INPUT;
-	GPIO_Init.Pull = GPIO_PULLUP;
+	GPIO_Init.Pull = GPIO_NOPULL;
 	GPIO_Init.Speed = GPIO_SPEED_FREQ_HIGH; 
-
 	/* 初始化对应的IO口 */
-	GPIO_Init.Pin = key0;
-	HAL_GPIO_Init(key0_port, &GPIO_Init);
-
 	GPIO_Init.Pin = key1;
 	HAL_GPIO_Init(key1_port, &GPIO_Init);
 
@@ -42,16 +38,18 @@ void key_init(void) {
 uint8_t key_scanf(void) {
 
 	uint8_t key_up=1;
-	if(key_up && (key0_read==0 || key1_read==0 || key2_read==0)) {
-
+	if(key_up && (key1_read==0 || key2_read==0)) {
+		
 		HAL_Delay(10);
 		key_up=0;
         
-		if		(key0_read==0)	return key0_push;
-		else if	(key1_read==0)	return key1_push;
-		else if	(key2_read==0)	return key2_push;
+		if		(key1_read==key_on)	return key1_push;
+		else if	(key2_read==key_on)	return key2_push;
 		
-	}//else if 	(key0_read==0 && key1_read==0 && key0_read==0);
+	}   else if (key1_read==key_off && key2_read==key_off) {
+
+        
+	}
     
 	return 0;
 }

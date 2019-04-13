@@ -2,6 +2,22 @@
 
 UART_HandleTypeDef debug_uart2;
 
+
+/**************************************************************************************
+*@function 	:debug_usart_dma_init
+*@input		:void
+*@return	:none
+*@author	:sola
+*@time		:2019/4/11
+**************************************************************************************/
+static void debug_usart_dma_init() {
+
+
+
+
+
+}
+
 /**************************************************************************************
 *@function 	:debug_usart_init
 *@input		:bound ->>>(2400-1152000)
@@ -41,6 +57,8 @@ void debug_usart_init(uint32_t bound) {
     debug_uart2.Init.OverSampling = UART_OVERSAMPLING_16;
 	HAL_UART_Init(&debug_uart2);
 }
+
+
 
 
 

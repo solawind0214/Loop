@@ -42,7 +42,7 @@ uint32_t data_read[255];
 uint8_t ID_buff[8];
 
 uint16_t music[255];
-uint32_t i;
+
 
 /*----------------------------------------------------------------------------*/
 int main(void)
@@ -56,12 +56,19 @@ int main(void)
     
     nandflash_init();
     
+#if USE_LED
+    
+    led_init();
+    
+#endif 
     Info_Printf("硬件初始化完成");
     
     HAL_Delay(1000);
     
     Info_Printf("开始调试程序");
-
+    
+    uint32_t i;
+    
     Info_Printf("nandflash  开始复位....");
     nandflash_reset();
     Info_Printf("nandflash  复位完成");

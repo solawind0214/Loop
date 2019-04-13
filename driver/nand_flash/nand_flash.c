@@ -310,7 +310,7 @@ void nandflash_serial_read(uint8_t *buffer,uint32_t length) {
         TC_RE_CLR();					                   //使能读功能  
         buffer[data_num] = nandflash_read_byte(GPIOB);     //将数据保存到buffer数组中
         nandflash_delay(5);
-		TC_RE_SET();
+        TC_RE_SET();
         nandflash_delay(5);
 	}
 	TC_CS_SET();                                           //拉高片选，失能，结束时序
