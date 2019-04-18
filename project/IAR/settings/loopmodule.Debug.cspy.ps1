@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "G:\sola_desktop\STM32\STM32F301\录音器\project\IAR\settings\loopmodule.Debug.general.xcl" --backend -f "G:\sola_desktop\STM32\STM32F301\录音器\project\IAR\settings\loopmodule.Debug.driver.xcl" 
+& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "G:\sola_desktop\git\录音器\project\IAR\settings\loopmodule.Debug.general.xcl" --backend -f "G:\sola_desktop\git\录音器\project\IAR\settings\loopmodule.Debug.driver.xcl" 
 }
 else
 {
-& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "G:\sola_desktop\STM32\STM32F301\录音器\project\IAR\settings\loopmodule.Debug.general.xcl" --debug_file=$debugfile --backend -f "G:\sola_desktop\STM32\STM32F301\录音器\project\IAR\settings\loopmodule.Debug.driver.xcl" 
+& "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "G:\sola_desktop\git\录音器\project\IAR\settings\loopmodule.Debug.general.xcl" --debug_file=$debugfile --backend -f "G:\sola_desktop\git\录音器\project\IAR\settings\loopmodule.Debug.driver.xcl" 
 }

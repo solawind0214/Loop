@@ -1,9 +1,9 @@
-"G:\sola_desktop\STM32\STM32F301\录音器\user\stm32f3xx_hal_msp.c"
+"G:\sola_desktop\git\录音器\user\stm32f3xx_hal_msp.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\user
+G:\sola_desktop\git\录音器\user
 -I
 G:\sola_desktop\STM32\STM32F301\录音器\cmsis\core
 -I
@@ -11,7 +11,7 @@ G:\sola_desktop\STM32\STM32F301\录音器\cmsis\startup
 -I
 G:\sola_desktop\STM32\STM32F301\录音器\cmsis\sys
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\driver
+G:\sola_desktop\git\录音器\driver
 -I
 G:\sola_desktop\STM32\STM32F301\录音器\driver\nand_flash
 -I
@@ -33,7 +33,7 @@ G:\sola_desktop\STM32\STM32F301\录音器\cmsis\startup
 -I
 G:\sola_desktop\STM32\STM32F301\录音器\cmsis\sys
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\driver
+G:\sola_desktop\git\录音器\driver
 -I
 G:\sola_desktop\STM32\STM32F301\录音器\driver\nand_flash
 -I

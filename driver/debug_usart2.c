@@ -10,9 +10,9 @@ UART_HandleTypeDef debug_uart2;
 *@author	:sola
 *@time		:2019/4/11
 **************************************************************************************/
-static void debug_usart_dma_init() {
+static void debug_usart_dma_init(void) {
 
-
+   
 
 
 

@@ -346,13 +346,12 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state>G:\sola_desktop\STM32\STM32F301\录音器\cmsis\core</state>
-                    <state>G:\sola_desktop\STM32\STM32F301\录音器\cmsis\startup</state>
-                    <state>G:\sola_desktop\STM32\STM32F301\录音器\cmsis\sys</state>
-                    <state>G:\sola_desktop\STM32\STM32F301\录音器\driver</state>
-                    <state>G:\sola_desktop\STM32\STM32F301\录音器\driver\nand_flash</state>
-                    <state>G:\sola_desktop\STM32\STM32F301\录音器\STM32F3xx_HAL_Driver\Inc</state>
-                    <state>G:\sola_desktop\STM32\STM32F301\录音器\user</state>
+                    <state>G:\sola_desktop\git\录音器\cmsis\core</state>
+                    <state>G:\sola_desktop\git\录音器\cmsis\sys</state>
+                    <state>G:\sola_desktop\git\录音器\STM32F3xx_HAL_Driver\Inc</state>
+                    <state>G:\sola_desktop\git\录音器\user</state>
+                    <state>G:\sola_desktop\git\录音器\driver</state>
+                    <state>G:\sola_desktop\git\录音器\driver\nand_flash</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>

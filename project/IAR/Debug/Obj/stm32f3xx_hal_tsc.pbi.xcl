@@ -1,23 +1,17 @@
-"G:\sola_desktop\STM32\STM32F301\录音器\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tsc.c"
+"G:\sola_desktop\git\录音器\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_tsc.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\STM32F3xx_HAL_Driver\Src
+G:\sola_desktop\git\录音器\STM32F3xx_HAL_Driver\Src
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\cmsis\core
+G:\sola_desktop\git\录音器\cmsis\core
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\cmsis\startup
+G:\sola_desktop\git\录音器\cmsis\sys
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\cmsis\sys
+G:\sola_desktop\git\录音器\STM32F3xx_HAL_Driver\Inc
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\driver
--I
-G:\sola_desktop\STM32\STM32F301\录音器\driver\nand_flash
--I
-G:\sola_desktop\STM32\STM32F301\录音器\STM32F3xx_HAL_Driver\Inc
--I
-G:\sola_desktop\STM32\STM32F301\录音器\user
+G:\sola_desktop\git\录音器\user
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I
@@ -27,19 +21,13 @@ D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc\c
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\cmsis\core
+G:\sola_desktop\git\录音器\cmsis\core
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\cmsis\startup
+G:\sola_desktop\git\录音器\cmsis\sys
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\cmsis\sys
+G:\sola_desktop\git\录音器\STM32F3xx_HAL_Driver\Inc
 -I
-G:\sola_desktop\STM32\STM32F301\录音器\driver
--I
-G:\sola_desktop\STM32\STM32F301\录音器\driver\nand_flash
--I
-G:\sola_desktop\STM32\STM32F301\录音器\STM32F3xx_HAL_Driver\Inc
--I
-G:\sola_desktop\STM32\STM32F301\录音器\user
+G:\sola_desktop\git\录音器\user
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I

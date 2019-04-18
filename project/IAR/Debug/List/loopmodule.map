@@ -1,59 +1,59 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.30.1.114/W32 for ARM                  09/Apr/2019  15:07:47
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  18/Apr/2019  21:38:23
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Exe\loopmodule.out
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Exe\loopmodule.out
 #    Map file     =  
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\List\loopmodule.map
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\List\loopmodule.map
 #    Command line =  
-#        -f C:\Users\sola\AppData\Local\Temp\EWB126.tmp
-#        (G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\debug_usart2.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\i2s.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\key.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\led.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\main.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\nand_flash.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\startup_stm32f301x8.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_comp.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_cortex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_crc.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_crc_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_dac_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_dma.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_flash.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_flash_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_gpio.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_i2c.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_i2c_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_i2s.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_i2s_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_irda.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_msp.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_pwr.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_pwr_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_rcc.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_rcc_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_rtc.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_rtc_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_spi.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_spi_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_sram.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_tim.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_tim_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_tsc.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_uart.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_uart_ex.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_usart.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_wwdg.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_it.o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj\system_stm32f3xx.o
+#        -f C:\Users\sola\AppData\Local\Temp\EW6BFF.tmp
+#        (G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\debug_usart2.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\i2s.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\key.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\led.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\main.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\nand_flash.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\startup_stm32f301x8.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_comp.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_cortex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_crc.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_crc_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_dac_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_dma.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_flash.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_flash_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_gpio.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_i2c.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_i2c_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_i2s.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_i2s_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_irda.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_msp.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_pwr.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_pwr_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_rcc.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_rcc_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_rtc.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_rtc_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_spi.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_spi_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_sram.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_tim.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_tim_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_tsc.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_uart.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_uart_ex.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_usart.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_hal_wwdg.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\stm32f3xx_it.o
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj\system_stm32f3xx.o
 #        --no_out_extension -o
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Exe\loopmodule.out
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Exe\loopmodule.out
 #        --map
-#        G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\List\loopmodule.map
+#        G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\List\loopmodule.map
 #        --config "D:\Program Files (x86)\IAR Systems\Embedded Workbench
 #        8.1\arm\config\linker\ST\stm32f301x6.icf" --semihosting --entry
 #        __iar_program_start --vfe --text_out locale)
@@ -251,7 +251,7 @@ command line/config:
     -------------------------------------------------
     Total:
 
-G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj: [1]
+G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj: [1]
     debug_usart2.o              168               112
     i2s.o                        24                68
     main.o                      230      280      520
@@ -415,7 +415,7 @@ uwTickFreq              0x2000'0050    0x1  Data  Gb  stm32f3xx_hal.o [1]
 uwTickPrio              0x2000'0000    0x4  Data  Gb  stm32f3xx_hal.o [1]
 
 
-[1] = G:\sola_desktop\STM32\STM32F301\Â¼ÒôÆ÷\project\IAR\Debug\Obj
+[1] = G:\sola_desktop\git\Â¼ÒôÆ÷\project\IAR\Debug\Obj
 [2] = dl7M_tlf.a
 [3] = m7M_tls.a
 [4] = rt7M_tl.a
