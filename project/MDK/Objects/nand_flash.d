@@ -70,3 +70,4 @@
 .\objects\nand_flash.o: ..\..\driver\debug_usart2.h
 .\objects\nand_flash.o: ..\..\driver\adc_b45k.h
 .\objects\nand_flash.o: ..\..\driver\i2s.h
+.\objects\nand_flash.o: ..\..\driver\tim.h

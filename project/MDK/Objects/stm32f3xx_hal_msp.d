@@ -69,3 +69,4 @@
 .\objects\stm32f3xx_hal_msp.o: ..\..\driver\debug_usart2.h
 .\objects\stm32f3xx_hal_msp.o: ..\..\driver\adc_b45k.h
 .\objects\stm32f3xx_hal_msp.o: ..\..\driver\i2s.h
+.\objects\stm32f3xx_hal_msp.o: ..\..\driver\tim.h

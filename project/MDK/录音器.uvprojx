@@ -621,6 +621,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\driver\adc_b45k.c</FilePath>
             </File>
+            <File>
+              <FileName>tim.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\driver\tim.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

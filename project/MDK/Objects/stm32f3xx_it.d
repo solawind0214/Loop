@@ -69,4 +69,5 @@
 .\objects\stm32f3xx_it.o: ..\..\driver\debug_usart2.h
 .\objects\stm32f3xx_it.o: ..\..\driver\adc_b45k.h
 .\objects\stm32f3xx_it.o: ..\..\driver\i2s.h
+.\objects\stm32f3xx_it.o: ..\..\driver\tim.h
 .\objects\stm32f3xx_it.o: ..\..\user\stm32f3xx_it.h

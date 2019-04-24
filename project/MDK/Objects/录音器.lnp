@@ -44,6 +44,7 @@
 ".\objects\led.o"
 ".\objects\nand_flash.o"
 ".\objects\adc_b45k.o"
+".\objects\tim.o"
 ".\objects\main.o"
 ".\objects\stm32f3xx_hal_msp.o"
 ".\objects\stm32f3xx_it.o"

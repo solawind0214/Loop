@@ -69,3 +69,4 @@
 .\objects\main.o: ..\..\driver\debug_usart2.h
 .\objects\main.o: ..\..\driver\adc_b45k.h
 .\objects\main.o: ..\..\driver\i2s.h
+.\objects\main.o: ..\..\driver\tim.h
