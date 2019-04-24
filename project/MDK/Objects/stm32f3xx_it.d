@@ -67,4 +67,6 @@
 .\objects\stm32f3xx_it.o: ..\..\user\main.h
 .\objects\stm32f3xx_it.o: ..\..\driver\nand_flash\nand_flash.h
 .\objects\stm32f3xx_it.o: ..\..\driver\debug_usart2.h
+.\objects\stm32f3xx_it.o: ..\..\driver\adc_b45k.h
+.\objects\stm32f3xx_it.o: ..\..\driver\i2s.h
 .\objects\stm32f3xx_it.o: ..\..\user\stm32f3xx_it.h

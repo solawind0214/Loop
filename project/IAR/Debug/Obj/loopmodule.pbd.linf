@@ -1,4 +1,5 @@
 ﻿G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\loopmodule.pbd
+G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\adc_b45k.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\debug_usart2.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\i2s.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\key.pbi
@@ -6,6 +7,8 @@ G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\led.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\main.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\nand_flash.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\stm32f3xx_hal.pbi
+G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\stm32f3xx_hal_adc.pbi
+G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\stm32f3xx_hal_adc_ex.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\stm32f3xx_hal_comp.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\stm32f3xx_hal_cortex.pbi
 G:\sola_desktop\git\录音器\project\IAR\Debug\Obj\stm32f3xx_hal_crc.pbi

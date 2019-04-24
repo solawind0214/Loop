@@ -616,6 +616,11 @@
               <FileType>1</FileType>
               <FilePath>..\..\driver\nand_flash\nand_flash.c</FilePath>
             </File>
+            <File>
+              <FileName>adc_b45k.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\driver\adc_b45k.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

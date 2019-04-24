@@ -2372,6 +2372,9 @@
     <group>
         <name>driver</name>
         <file>
+            <name>$PROJ_DIR$\..\..\driver\adc_b45k.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\..\driver\debug_usart2.c</name>
         </file>
         <file>
@@ -2394,6 +2397,12 @@
         <name>hal_lib</name>
         <file>
             <name>$PROJ_DIR$\..\..\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_adc.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_adc_ex.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\..\STM32F3xx_HAL_Driver\Src\stm32f3xx_hal_comp.c</name>

@@ -67,3 +67,5 @@
 .\objects\stm32f3xx_hal_msp.o: ..\..\user\main.h
 .\objects\stm32f3xx_hal_msp.o: ..\..\driver\nand_flash\nand_flash.h
 .\objects\stm32f3xx_hal_msp.o: ..\..\driver\debug_usart2.h
+.\objects\stm32f3xx_hal_msp.o: ..\..\driver\adc_b45k.h
+.\objects\stm32f3xx_hal_msp.o: ..\..\driver\i2s.h

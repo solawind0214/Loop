@@ -68,3 +68,5 @@
 .\objects\nand_flash.o: ..\..\user\main.h
 .\objects\nand_flash.o: ..\..\driver\nand_flash\nand_flash.h
 .\objects\nand_flash.o: ..\..\driver\debug_usart2.h
+.\objects\nand_flash.o: ..\..\driver\adc_b45k.h
+.\objects\nand_flash.o: ..\..\driver\i2s.h

@@ -2,7 +2,6 @@
 *                                       LoopaModule Project
 *
 *@auchor:R&D->sola
-            ->邓胜忠
 			
 *@data  :2019.3.13(更新时间)
 *@desc  : 
@@ -23,7 +22,7 @@
 #include "main.h"
 #include "STM32F3XX.H"
 /*#DEFINE---------------------------------------------------------------------*/
-#define USE_USART                                                            0
+#define USE_USART                                                            1
 #define USE_LED                                                              0
 /*FUNCTION--------------------------------------------------------------------*/
 static void SystemClock_Config(void);
@@ -37,43 +36,43 @@ uint8_t nand_flash_ecc_str[255];
 uint32_t data_write[255];
 uint32_t data_read[255];
 
-uint8_t ID_buff[8];
-
-uint16_t music[255];
-
 
 /*----------------------------------------------------------------------------*/
 int main(void)
 {
-    /* HAL库初始化 */
+ 
     HAL_Init();
     /* 设置时钟为72MHz */
     SystemClock_Config();
     
     debug_usart_init(115200);
     
+    adc_init(); 
+    
+    ak4556_init();
+    ak4556_mode(0); //输出模式
+    
     nandflash_init();
     
-#if USE_LED
+    #if USE_LED
+        led_init();
+    #endif 
     
-    led_init();
-    
-#endif 
     Info_Printf("硬件初始化完成");
-    
-    HAL_Delay(1000);
-    
+/*----------------------------------------------------------------------------*/     
+    uint8_t ID_buff[8];//ID存储缓冲区
+    float ad_save[8];  // adc采集存储区
+    //float ad_conv;
+/*----------------------------------------------------------------------------*/    
+    HAL_Delay(1000);   //等待缓冲
+/*----------------------------------------------------------------------------*/  
     Info_Printf("开始调试程序");
-    
-    uint32_t i;
     
     Info_Printf("nandflash  开始复位....");
     nandflash_reset();
     Info_Printf("nandflash  复位完成");
-    
     Info_Printf("读取nandflash-ID....");
-    nandflash_read_id(ID_buff);
-    
+    nandflash_read_id(ID_buff); 
     Info_Printf("NAND FLASH ID = %x%x%x%x%x",ID_buff[0],
                                              ID_buff[1],
                                              ID_buff[2],
@@ -81,17 +80,12 @@ int main(void)
                                              ID_buff[4]);
     
     Info_Printf("nandflash-ID读取成功");
-
-    for(i = 0;i<255;i++) {
-
-       music[i] = i;
-    }
+    
     
   /* Infinite loop */
-    
     while(1) {
 
-        ak4556_out(music,255);
+       
        
     }
 }

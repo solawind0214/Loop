@@ -13,6 +13,10 @@ G:\sola_desktop\git\录音器\STM32F3xx_HAL_Driver\Inc
 -I
 G:\sola_desktop\git\录音器\user
 -I
+G:\sola_desktop\git\录音器\driver
+-I
+G:\sola_desktop\git\录音器\driver\nand_flash
+-I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\DSP\Include
@@ -28,6 +32,10 @@ G:\sola_desktop\git\录音器\cmsis\sys
 G:\sola_desktop\git\录音器\STM32F3xx_HAL_Driver\Inc
 -I
 G:\sola_desktop\git\录音器\user
+-I
+G:\sola_desktop\git\录音器\driver
+-I
+G:\sola_desktop\git\录音器\driver\nand_flash
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I

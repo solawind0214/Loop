@@ -16,6 +16,7 @@ DMA_HandleTypeDef hdma_spi2_rx;
 
 uint32_t loop_rec[255];
 
+
 static void ak4556_gpio_init() {
 
     GPIO_InitTypeDef  GPIO_Init;
@@ -110,8 +111,6 @@ void ak4556_mode(uint8_t mode) {    //mode = 0 输出模式，mode = 1 输入模式
        hi2s.Init.Standard = I2S_STANDARD_MSB;                 //使用左对齐标准
        HAL_I2S_Init(&hi2s);
     }
-
-
 }
 
 void ak4556_out(uint16_t * pData, uint16_t Size) {

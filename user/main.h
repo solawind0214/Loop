@@ -43,6 +43,9 @@
 #include "key.h"
 #include "nand_flash.h"
 #include "debug_usart2.h"
+#include "adc_b45k.h"
+#include "i2s.h"
+
 
 
 #define Debug_Mode 								1
